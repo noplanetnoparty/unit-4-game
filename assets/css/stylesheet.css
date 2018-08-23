@@ -25,12 +25,16 @@ h2 {
     color: blueviolet;
 }
 
-#randomNum {
+/* #randomNum {
     color: blue;
     background-color: gray;
     display: block;
     border: 5px solid black;
-}
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;
+    font-size: 18px; 
+} */
 
 .gemImage {
     border: 5px solid red;
@@ -40,10 +44,16 @@ h2 {
 .rdmNum {
     padding: 20px;
     margin: 0 auto;
-    width: 50%;
+    color: blue;
+    background-color: gray;
+    display: block;
+    border: 5px solid black;
+    width: 200px;
+    height: 100px;
+    font-size: 18px;
 }
 
-.winsAndlosses,
+.winsAndLosses,
 .userTotal {
     display: block;
     margin: 0 auto;
@@ -52,13 +62,30 @@ h2 {
     width: 50%;
 }
 
-.gems {
+/* .gems {
     margin: 0 auto;
     width: 100%;
 }
 
-/* img.gemImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.gems img {
+    margin: 0 auto;
+}
+
+img.gemImage {
+    display: inline-block;
+    margin: 0 auto;
 } */
+.gems{
+    max-width: 1000px;
+    padding-top:50px;
+    padding-bottom: 60px;
+    display: flex;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.gemImage{
+    width: 100px;  
+    height: 100px;
+    margin: auto;
+}
