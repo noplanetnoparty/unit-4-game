@@ -8,6 +8,8 @@
     <title>Crystal Game</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/stylesheet.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
@@ -36,30 +38,33 @@
             </p>
         </div>
         <div class="rdmNum">
-            <h3>Number To Get:
-                <span id="randomNum"></span>
-            </h3>
-        </div>
-        <div class="userTotal">
-            <h3>Your total score is:
-                <span id="currentTotal"></span>
+            <h3>Goal:
+                <div id="randomNum"></div>
             </h3>
         </div>
         <div class="gems">
-            <img src="https://via.placeholder.com/100x100" class="gemImage" id="one" alt="Blue Gem">
-            <img src="https://via.placeholder.com/100x100" class="gemImage" id="two" alt="Green Gem">
-            <img src="https://via.placeholder.com/100x100" class="gemImage" id="three" alt="Red Gem">
-            <img src="https://via.placeholder.com/100x100" class="gemImage" id="four" alt="Yellow Gem">
+            <i class="far fa-gem fa-4x gemImage" id="one"></i>
+            <i class="far fa-gem fa-4x gemImage" id="two"></i>
+            <i class="far fa-gem fa-4x gemImage" id="three"></i>
+            <i class="far fa-gem fa-4x gemImage" id="four"></i>
+        </div>
+        <div class="userTotal">
+            <h3>Your total score is:
+                <div id="currentTotal"></div>
+            </h3>
         </div>
         <div class="winsAndLosses">
             <h2>Wins:
-                <span id="totalWins"></span>
+                <div class="winsAmnt">
+                    <span id="totalWins"></span>
+                </div>
             </h2>
             <h2>Losses:
-                <span id="totalLosses"></span>
+                <div class="lossAmnt">
+                    <span id="totalLosses"></span>
+                </div>
             </h2>
         </div>
-
     </div>
     <script src="assets/javascript/game.js" type="text/javascript"></script>
 
